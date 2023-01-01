@@ -82,15 +82,10 @@
                                                                                 <select role="button" data-toggle="dropdown" class="form-control-sm form-control" id="unidad{{$ingrediente->id}}"  name="receta[]" required>
         
                                                                                         <option value="mililitro(ml)">mililitro ml</option>
-                                                                                        <option value="gramos(g)">gramos g</option>
+                                                                                        <option selected value="gramos(g)">gramos g</option>
                                                                                         <option value="tazas(1/3)">tazas 1/3</option>
                                                                                         <option value="tazas(1/2)">tazas 1/4</option>
-                                                                                        <option selected value="cucharada 1/2">cucharada 1/2</option>
-                                                                                        <option value="cucharada 1/3">cucharada 1/3</option>
-                                                                                        <option value="cucharada 1/4">cucharada 1/4</option>
-                                                                                        <option value="cucharaditas 1/2">cucharaditas 1/2</option>
-                                                                                        <option value="cucharaditas 1/4">cucharaditas 1/4</option>
-                                                                                        <option value="cucharaditas 1/5">cucharaditas 1/5</option>  
+                                                                                          
                                                                                 </select>
                                                                             </div>
                                                                         </div>
