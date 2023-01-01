@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\Mail;    //IMPORTAMOS LA CLASE MAIL
 class ContactanosController extends Controller
 {
     public function index(){
-        return view('emails.index');
+        return view('emails.indexpuro');
     }
     
     public function store(Request $request){

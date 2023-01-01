@@ -28,7 +28,7 @@
 
 
 <div class="card shadow-lg card-success card-outline mb-3">
-    <div class="card-header  text-center text-light"><b>FORMULARIO</b></div>
+    <div class="card-header  text-center text-success"><b>FORMULARIO</b></div>
     <div class="card-body"> 
 
         <form action="{{route('contactanos.store')}}" method="POST" class="needs-validation" novalidate>
