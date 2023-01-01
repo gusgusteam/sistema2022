@@ -8,14 +8,9 @@
     <div class="container">
       <div class="row mb-2">
         <div class="col-sm-6">
-          <h1 class="m-0 text-dark"> Contactanos</h1>
+          <h1 class="m-0 text-dark">CORREO</h1>
         </div><!-- /.col -->
-        <div class="col-sm-6">
-          <ol class="breadcrumb float-sm-right">
-            <li class="breadcrumb-item"><a href="#">Home</a></li>
-            <li class="breadcrumb-item active">Contacto</li>
-          </ol>
-        </div><!-- /.col -->
+        
       </div><!-- /.row -->
     </div><!-- /.container-fluid -->
   </div>
@@ -32,14 +27,14 @@
   
 
 
-<div class="card shadow-lg card-danger card-outline mb-3">
-    <div class="card-header  text-center text-danger"><b>FORMULARIO</b></div>
+<div class="card shadow-lg card-success card-outline mb-3">
+    <div class="card-header  text-center text-light"><b>FORMULARIO</b></div>
     <div class="card-body"> 
 
         <form action="{{route('contactanos.store')}}" method="POST" class="needs-validation" novalidate>
         @csrf
             <div class="mb-3">
-              <label for="asunto" class="form-label fw-bold text-danger">Asunto:</label>
+              <label for="asunto" class="form-label fw-bold ">Asunto:</label>
               <input class="form-control" type="text" name="asunto"id="asunto" placeholder="Ingrese el Asunto" required>
               <div class="invalid-feedback">
                 Porfavor ingrese el asunto.
@@ -47,7 +42,7 @@
             </div>
 
             <div class="mb-3">
-                <label for="name" class="form-label fw-bold text-danger">Nombre:</label>
+                <label for="name" class="form-label fw-bold ">Nombre:</label>
                 <input class="form-control" type="text" name="name"id="name" placeholder="Ingrese su nombre" required>
                 <div class="invalid-feedback">
                    Porfavor ingrese su nombre.
@@ -59,7 +54,7 @@
             @enderror
 
             <div class="mb-3">
-                <label for="correo" class="form-label fw-bold text-danger">Correo remitente:</label>
+                <label for="correo" class="form-label fw-bold ">Correo remitente:</label>
                 <input class="form-control" type="email" name="correo"id="correo" placeholder="Ingrese su correo" required>
                 <div class="invalid-feedback">
                     Porfavor ingrese su correo.
@@ -71,7 +66,7 @@
             @enderror
 
           <div class="mb-3">
-              <label for="correodestino" class="form-label fw-bold text-danger">Correo destinatario:</label>
+              <label for="correodestino" class="form-label fw-bold ">Correo destinatario:</label>
               <input class="form-control" type="email" name="correodestino"id="correodestino" placeholder="Ingrese su correo" required>
               <div class="invalid-feedback">
                   Porfavor ingrese el correo destino.
@@ -83,7 +78,7 @@
             @enderror
 
             <div class="mb-3">
-                <label for="mensaje" class="form-label fw-bold text-danger">Mensaje:</label>
+                <label for="mensaje" class="form-label fw-bold ">Mensaje:</label>
                 <textarea class="form-control" id="mensaje" type="text" name="mensaje" placeholder="Ingrese su Mensaje."rows="3" required></textarea>
                 {{-- <div class="invalid-feedback"> --}}
                 <div class="invalid-feedback">
@@ -95,7 +90,7 @@
                 <p><strong>{{$message}}</strong></p>
             @enderror
             <div>
-               <center><button class="btn btn-danger" onclick="" type="submit">Enviar Mensaje</button></center>
+               <center><button class="btn btn-success" onclick="" type="submit">Enviar Mensaje</button></center>
               </div>
         </form>
             @if (Session::has('info'))

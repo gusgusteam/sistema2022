@@ -327,11 +327,11 @@
                   </div>
                   <label for="latitud" class="col-sm-2 form-control-sm col-form-label text-center">Latitud:</label>
                   <div class="col-sm-3">
-                    <input type="email" class="form-control form-control-sm" id="latitud"  name="longitud" placeholder="Latitud">
+                    <input type="email" class="form-control form-control-sm" id="latitud"  name="longitud" placeholder="Escribs su Latitud Manual">
                   </div>
                   <label for="longitud" class="col-sm-2 form-control-sm col-form-label text-center">Longitud:</label>
                   <div class="col-sm-3">
-                    <input type="email" class="form-control form-control-sm" id="longitud" name="longitud" placeholder="Email">
+                    <input type="email" class="form-control form-control-sm" id="longitud" name="longitud" placeholder="Escriba su Longitud Manual">
                   </div>
                 
                 </div>

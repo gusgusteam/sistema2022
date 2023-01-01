@@ -68,10 +68,8 @@
                   <li><a href="{{ route('cargar.categoria',$categoria->id) }}" class="dropdown-item">{{$categoria->nombre}} </a></li>
                 @endforeach
               @else
-                <li><a href="#" class="dropdown-item">Caseros </a></li>
-                <li><a href="#" class="dropdown-item">Integrales</a></li>
-                <li><a href="#" class="dropdown-item">Harina</a></li>
-                <li><a href="#" class="dropdown-item">Queques</a></li>
+                <li><a href="#" class="dropdown-item">Ninguno </a></li>
+              
               @endif
             
 
